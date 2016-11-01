@@ -1,0 +1,380 @@
+a,a:hover {
+    color: #3097d1
+}
+
+.navbar-logout,a {
+    transition: all .3s ease
+}
+.navbar-nav>li a.active{
+    background: #0A70A9;
+}
+.navbar a:hover,.navbar-logout:hover {
+    text-shadow: 0 0 3px rgba(255,255,255,.3)
+}
+
+.s-multiple .lt,td,th {
+    text-align: center
+}
+
+body {
+    background: #faffff;
+    font-family: Microsoft Yahei
+}
+
+a {
+    font-size: 16px
+}
+
+.navbar {
+    background: #3097d1;
+    margin: 0 0 50px
+}
+
+.navbar a {
+    color: rgba(255,255,255,.8)
+}
+
+.navbar a:hover {
+    background: #3097d1!important;
+    color: #fff
+}
+
+.container-fluid {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.navbar-collapse {
+    float: left;
+    display: inline-block
+}
+
+.navbar-user {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    margin: 0 35px;
+    line-height: 50px;
+    color: #fff
+}
+
+.navbar-logout {
+    float: right;
+    width: 50px;
+    height: 30px;
+    margin: 10px 15px;
+    background: 0 0;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    outline: 0
+}
+
+.navbar-logout:hover {
+    background: rgba(0,0,0,.1)
+}
+
+article {
+    padding: 0 30px!important
+}
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li>a:hover {
+    background: #faffff
+}
+
+.nav-tabs>li>a:hover {
+    border-color: transparent;
+    border-bottom: 1px solid #ddd
+}
+
+.nav-tabs>li:active>a:focus {
+    border-bottom: 1px solid transparent!important
+}
+
+.tab-content {
+    padding: 40px 0
+}
+
+.input-group {
+    float: left;
+    margin: 0 30px 30px 0;
+    width: 220px
+}
+
+.dateBox{position: relative;}
+.dateBox .clear{
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    line-height: 34px;
+    font-size: 20px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+
+.tap-in-span {
+    padding: 0
+}
+
+.tap-in-span select {
+    border: none;
+    height: 32px;
+    width: 95px;
+    background: 0 0;
+    outline: 0
+}
+
+.btn-primary,.btn-primary:hover {
+    background: #3097d1;
+    border-color: #3097d1
+}
+
+.btn-primary {
+    width: 100px
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 10px #3097d1
+}
+
+.table>tbody>tr:hover {
+    background: rgba(30,144,255,.1)!important
+}
+
+.pager {
+    float: right
+}
+
+.sync-btns {
+    width: 600px
+}
+
+.sync-btns .btn {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    margin: 20px;
+    color: #333;
+    background-color: #eee
+}
+
+.sync-btns .btn:active {
+    background-color: #3097d1;
+    color: #fff
+}
+
+.s-multiple.row {
+    margin-bottom: 20px
+}
+
+.s-multiple .lt {
+    width: 100px;
+    float: left;
+    font-size: 16px;
+    position: absolute;
+    margin-left: -15px
+}
+
+.s-multiple .lt .glyphicon {
+    display: block;
+    margin: 30px auto auto;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+.checkbox-group,.input-group2 span,.label {
+    display: inline-block
+}
+
+.s-multiple .lt .glyphicon:hover {
+    background-color: #3097d1;
+    border-color: #3097d1;
+    color: #fff
+}
+
+.s-multiple .rt {
+    float: left;
+    width: 100%;
+    padding-left: 100px
+}
+
+.s-multiple select {
+    width: 100%
+}
+
+.s-multiple select option {
+    height: 20px;
+    line-height: 20px;
+}
+
+.s-multiple select:focus {
+    outline: 0
+}
+
+.s-multiple select option:checked:after {
+    content: '';
+    background-color: #5CC485;
+    float: left;
+    width: 100%;
+    margin: -20px 0 0 -3px;
+    height: 20px;
+    padding: 0 4px;
+    box-sizing: content-box
+}
+
+.modal-dialog {
+    margin: 80px auto
+}
+
+.til {
+    margin: 0 0 30px;
+    background-color: #666;
+    color: #fff;
+    padding: 15px
+}
+
+.input-group2 {
+    margin: 20px 0
+}
+
+.input-group2 span {
+    width: 100px
+}
+
+.input-group2 input,.input-group2 select {
+    display: inline-block;
+    width: 240px
+}
+
+.iatasearch,.userinfo {
+    float: left;
+    width: 50%
+}
+
+.checkboxs,.pricecode {
+    width: 100%;
+    overflow-Y: scroll
+}
+
+.iatasearch p,.userinfo p {
+    font-size: 20px
+}
+
+.iatasearch button,.userinfo button {
+    margin: 20px 0 0 110px
+}
+
+.checkboxs {
+    max-height: 330px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0
+}
+
+.checkbox-group {
+    margin: 10px
+}
+
+.label {
+    margin: 0 0 30px;
+    padding: 0 0 0 15px;
+    border-left: 5px solid #3097d1;
+    border-radius: 0!important;
+    background: 0 0;
+    color: #3097d1;
+    font-size: 22px!important
+}
+
+.pricecode p,thead p {
+    font-size: 20px
+}
+
+.withbtn td {
+    line-height: 32px!important
+}
+
+.pricecode {
+    display: block;
+    max-height: 400px
+}
+
+.pricecode p {
+    display: inline-block
+}
+
+.pricecode td {
+    border-color: transparent!important
+}
+
+.btn-right {
+    position: absolute;
+    right: 0
+}
+
+.query {
+    position: relative
+}
+
+.modal-content:after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden
+}
+
+.modal-content {
+    padding: 20px
+}
+
+.modal-body {
+    padding: 20px 0
+}
+
+.modal-body .input-group {
+    width: 250px
+}
+
+.table {
+    margin-bottom: 30px
+}
+
+.num1 .modal-content {
+    padding: 20px 50px 50px
+}
+
+.currentiata button {
+    float: left
+}
+
+.sync-btns {
+    margin: 0 auto
+}
+
+.lab {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.codeprice  td{
+	text-align: center!important;
+}
+
+
+.addon-label{line-height:34px;margin-right:10px;float: left;}
+.mg0{margin: 0!important;}

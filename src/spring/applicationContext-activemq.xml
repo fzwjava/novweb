@@ -1,0 +1,39 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:amq="http://activemq.apache.org/schema/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://activemq.apache.org/schema/core  http://activemq.apache.org/schema/core/activemq-core.xsd"
+	default-autowire="byName">
+	<!-- ActiveMQ destinations to use -->
+	<bean id="jmsFactory" class="org.apache.activemq.pool.PooledConnectionFactory"
+		destroy-method="stop">
+		<property name="connectionFactory">
+			<bean class="org.apache.activemq.ActiveMQConnectionFactory">
+				<property name="brokerURL">
+					<value>${mq.ids.brokerURL}</value>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="idsjmsFactory" class="org.apache.activemq.pool.PooledConnectionFactory"
+		destroy-method="stop">
+		<property name="connectionFactory">
+			<bean class="org.apache.activemq.ActiveMQConnectionFactory">
+				<property name="brokerURL">
+					<value>${mq.ids.brokerURL}</value>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+
+	<!-- Spring JMS Template -->
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="jmsFactory">
+		</property>
+	</bean>
+
+	<bean id="idsjmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="idsjmsFactory">
+		</property>
+	</bean>
+</beans>
